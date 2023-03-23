@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-gewg1fd8p@&xrus@8@4q7ae*m*elyt-fc9+-=8(v=@1*ms5v3a
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -75,8 +75,8 @@ WSGI_APPLICATION = 'Arl_v3.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'djongo',
+        'NAME': 'arl_db',
     }
 }
 
