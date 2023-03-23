@@ -1,0 +1,108 @@
+/* Home Page Service Section */
+.service_section{
+    padding: 10px 0;
+}
+.service_text_div{
+    width: 20%;
+    margin: auto;
+    border-bottom: 2px solid black;
+
+}
+.service_text{
+    text-align: center;
+    font-size: 40px;
+    word-break: break-all;
+    text-shadow: 0px 0px 5px green;
+}
+.service_image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.service_image_div1, .service_image_div2, .service_image_div3{
+    width: 30%;
+}
+.service_image_div1:hover, .service_image_div2, .service_image_div3{
+    transition: all .5s;
+    
+}
+.service_image1, .service_image2, .service_image3{
+    border: 1px solid black;
+}
+.service_image1{
+    width: 80%;
+}
+.service_image2{
+    width: 90%;
+}
+.service_image3{
+    width: 70%;
+}
+
+.service_image1:hover, .service_image2:hover, .service_image3:hover{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px black;
+    cursor: pointer;
+}
+.more{
+    text-align: right;
+    padding: 10px 20px;
+}
+.more_link{
+    text-decoration: none;
+    color: blue;
+}
+.more_link:hover{
+    color: black;
+}
+/* End Home Page Service Section */
+
+/* Service Image 1 popup */
+.service_image_div1_popup, .service_image_div2_popup, .service_image_div3_popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    display: none;
+}
+.innerImageDivPopup, .innerImageDiv1Popup, .innerImageDiv2Popup{
+    width: 50%;
+    margin: 10% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.closebtn1, .closebtn2, .closebtn3{
+    float: right;
+    padding: 10px 20px;
+    margin-right: 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+body.active .service_image_div1_popup{
+    display: block;
+}
+
+ body.active1 .service_image_div2_popup{
+    display: block;
+}
+
+body.active2 .service_image_div3_popup{
+    display: block;
+}
+
+/* End Service Image 1 popup */

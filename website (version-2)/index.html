@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Design Code -->
+    <link rel="stylesheet" href="css/index/socialmedia.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/index/index-home.css" />
+    <link rel="stylesheet" href="css/index/index-service.css" />
+    <link rel="stylesheet" href="css/index/index-about.css" />
+    <link rel="stylesheet" href="css/foot.css" />
+    <link rel="stylesheet" href="css/register.css" />
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="css/index/index-team-slider.css" />
+    <!-- End Design Code -->
+
+    <!-- Responsive Design code -->
+    <link rel="stylesheet" href="responsive/socialmedia-responsive.css" />
+    <link rel="stylesheet" href="responsive/menu-responsive.css" />
+    <link rel="stylesheet" href="responsive/index-home-responsive.css" />
+    <link rel="stylesheet" href="responsive/index-service-responsive.css" />
+    <link rel="stylesheet" href="responsive/index-about-responsive.css" />
+    <link rel="stylesheet" href="responsive/index-team-responsive.css" />
+    <link rel="stylesheet" href="responsive/foot-responsive.css" />
+    <link rel="stylesheet" href="responsive/register-responsive.css" />
+    <link rel="stylesheet" href="responsive/login-responsive.css" />
+    <!-- End Responsive Design code -->
+
+    <!-- cdn links -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- end cdn links -->
+
+    <!-- Title Logo Image -->
+    <link rel="icon" href="image/title logo.jpg" />
+    <!-- End Title Logo Image -->
+
+    <!-- Title of Webpage -->
+    <title>Arl Expressway</title>
+    <!-- End Title of Webpage -->
+  </head>
+  <body>
+    <!---------------------Menu Section ----------------->
+
+    <header>
+      <!-- Social Media Header Section -->
+      <div class="socialmedia">
+        <div class="mail-number">
+          <!-- Email -->
+          <div class="mail">
+            <i class="fa fa-envelope"></i>
+            <a
+              href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSKjRPhBxnxsffJFqGgTBZtmRhqNfRkDPDFBXBPqBhZJDNctCtmgGbRWrkBHGhkHCwxtjhhN"
+              target="_"
+              class="email_link"
+            >
+              <span class="email_text"> arlexpressways@gmail.com </span>
+            </a>
+          </div>
+          <!-- End Email -->
+
+          <!-- Number -->
+          <div class="number">
+            <i class="fa fa-phone"></i>
+            <span class="number1"> +91 9015884914 , </span>
+            <span class="number2"> +91 8744887282 </span>
+          </div>
+        </div>
+        <!-- End Number -->
+
+        <!-- Social Media Text And Icon -->
+        <div class="socialmediaicon">
+          <span class="follow_text">Follow Us On : </span>
+
+          <!-- Facebook icon-->
+          <a
+            href="https://www.facebook.com/"
+            target="_"
+            class="social_icon_link"
+          >
+            <i class="fa fa-facebook social_icon"></i>
+          </a>
+          <!--End Facebook icon-->
+
+          <!--Twitter icon-->
+          <a
+            href="https://twitter.com/i/flow/login"
+            target="_"
+            class="social_icon_link"
+          >
+            <i class="fa fa-twitter social_icon"></i>
+          </a>
+          <!--End Twitter icon-->
+
+          <!-- Instagram Icon -->
+          <a
+            href="https://www.instagram.com/"
+            target="_"
+            class="social_icon_link"
+          >
+            <i class="fa fa-instagram social_icon"></i>
+          </a>
+          <!--End Instagram Icon -->
+
+          <!--Whatsapp Icon -->
+          <a
+            href="https://web.whatsapp.com/"
+            target="_"
+            class="social_icon_link"
+          >
+            <i class="fa fa-whatsapp social_icon"></i>
+          </a>
+          <!--End Whatsapp Icon -->
+        </div>
+
+        <!--End Social Media Text And Icon -->
+      </div>
+
+      <!-- End Social Media Header Section -->
+
+      <!-- Menu Header Section -->
+
+      <div class="menu" id="menu">
+        <!-- Menu Logo Start-->
+        <div class="arl_logo" id="logo">
+          <!-- Logo Image Url-->
+          <a href="index.html">
+            <!-- Logo Image-->
+            <img src="image/arl.png" alt="ARL Website Logo" class="arl_image" />
+            <!-- Logo Image End-->
+          </a>
+          <!-- Logo Image Url End-->
+        </div>
+
+        <!--End Menu Logo -->
+
+        <!-- Navigation Button -->
+        <ul class="navigation" id="navigator">
+          <li class="menu_list"><a href="#" class="menu_link">home</a></li>
+          <li class="menu_list">
+            <a href="pages/service.html" class="menu_link">service</a>
+          </li>
+          <li class="menu_list">
+            <a href="pages/contact.html" class="menu_link">contact</a>
+          </li>
+          <li class="menu_list">
+            <a href="pages/about.html" class="menu_link">about</a>
+          </li>
+        </ul>
+        <!--End Navigation Button -->
+
+        <!-- Hamburger Button -->
+        <div class="hamburger" id="icon">
+          <img
+            src="image/menu.png"
+            alt="Menu Icon"
+            class="menu_icon"
+            id="icon1"
+            onclick="showmenu()"
+          />
+          <img
+            src="image/close.png"
+            alt="Close Icon"
+            id="icon2"
+            class="close_icon"
+            onclick="closemenu()"
+          />
+        </div>
+        <!--End Hamburger Button -->
+      </div>
+      <!-- End Menu Header Section -->
+
+      <!-- Marque Text  -->
+      <div class="text_marque">
+        <marquee
+          behavior="scroll"
+          direction="left"
+          onmouseover="this.stop();"
+          onmouseout="this.start();"
+        >
+          Designed and Developed by Satyam Pandey</marquee
+        >
+      </div>
+      <!-- End Marque Text  -->
+    </header>
+
+    <!---------------------Body Section ----------------->
+
+    <!-- Home Section -->
+
+    <div class="body_content">
+      <div class="welcome_div">
+        <div class="heading_para_div">
+          <h1 class="heading">ARL Expressway Pvt. Ltd.</h1>
+          <p class="head_para">
+            ARL Expressway helps you to transport your goods & services from one
+            place to another in a quicker way within desirable cost by following
+            the major saftey procedures.
+          </p>
+        </div>
+
+        <div class="register">
+          <button id="register_button">Register</button>
+          <button class="login_btn">Login</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Home Section -->
+
+    <!-- Regitser Form -->
+    <div class="register-popup">
+      <div class="close">
+        <button class="closebtn">x</button>
+      </div>
+      <form class="form">
+        <div class="reg_heading">
+          <h1 class="register_text">Registration Form</h1>
+        </div>
+        <div class="username">
+          <div class="first_name">
+            <i class="fa fa-user user_icon" aria-hidden="true"></i>
+            <input
+              type="text"
+              placeholder="First Name"
+              class="fname"
+              required
+            />
+          </div>
+          <div class="second_name">
+            <i class="fa fa-user user_icon" aria-hidden="true"></i>
+            <input type="text" placeholder="Last Name" class="lname" required />
+          </div>
+        </div>
+        <div class="email_div">
+          <i class="fa fa-envelope email_icon" aria-hidden="true"></i>
+          <input
+            type="email"
+            placeholder="E-mail"
+            class="email_input"
+            required
+          />
+        </div>
+        <div class="password">
+          <i class="fa fa-lock lock_icon" aria-hidden="true"></i>
+          <input
+            type="password"
+            placeholder="Password"
+            class="pass_input"
+            required
+          />
+        </div>
+        <div class="password">
+          <i class="fa fa-lock lock_icon" aria-hidden="true"></i>
+          <input
+            type="password"
+            placeholder="Confirm Password"
+            class="pass_input"
+            required
+          />
+        </div>
+        <div class="gender">
+          <input type="radio" name="gender" checked />
+          <label class="male">Male</label>
+          <input type="radio" name="gender" />
+          <label class="female">Female</label>
+        </div>
+        <div class="tick_box">
+          <input type="checkbox" checked />
+          <label class="aggrement">I Accept the Term and Condition</label>
+        </div>
+        <div class="btn">
+          <input type="submit" value="Register" class="register_btn" />
+        </div>
+        <a href="../index.html" class="home">Back to Home</a>
+      </form>
+    </div>
+    <!-- End Regitser Form -->
+
+    <!-- Login Form -->
+    <section class="login-form">
+      <div class="close_div">
+        <button class="closebutton">x</button>
+      </div>
+      <div class="form-section">
+        <h1 class="continue_text">Login Form</h1>
+        <form class="login_form">
+          <div class="user_div">
+            <label class="user">Email or Phone</label>
+            <input type="email" class="email_input_box" />
+          </div>
+          <div class="pass_div">
+            <label class="pass">Password</label>
+            <input type="password" class="pass_input_box" />
+          </div>
+          <a href="#" class="forgetpasslink">Forget Password ?</a>
+          <button class="login-form_btn">Login</button>
+        </form>
+      </div>
+    </section>
+    <!-- End Login Form -->
+
+    <!-- Service Secton -->
+
+    <section class="service_section">
+      <div class="service_text_div">
+        <h1 class="service_text">Our Services</h1>
+      </div>
+
+      <div class="service_image">
+        <div class="service_image_div1">
+          <img src="image/1.jpg" alt="Image" class="service_image1" />
+        </div>
+        <!-- Service Image Div1 Popup -->
+        <div class="service_image_div1_popup">
+          <div class="close1">
+            <button class="closebtn1">x</button>
+          </div>
+          <div class="innerImageDivPopup">
+            <div class="popup_champion">
+              <img
+                src="image/1.jpg"
+                alt="Error while loading"
+                class="popup_champion_image"
+              />
+            </div>
+            <div class="popup_champion_descripion">
+              <h2 class="popupchampion_title">MAHINDRA CHAMPION (CNG)</h2>
+              <p class="popup_champion_detail">
+                Rent-:By distance 50 Rs/Km <br />Vehicle capacity 1000kg
+                <br />Extra charge for extra weight
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- End Service Image Div1 Popup -->
+
+        <div class="service_image_div2">
+          <img src="image/2.jpg" alt="Image" class="service_image2" />
+        </div>
+        <!-- Service Image Div2 Popup -->
+        <div class="service_image_div2_popup">
+          <div class="close2">
+            <button class="closebtn2">x</button>
+          </div>
+          <div class="innerImageDiv1Popup">
+            <div class="popup_tataex">
+              <img
+                src="image/2.jpg"
+                alt="Error while loading"
+                class="popup_tataex_image"
+              />
+            </div>
+            <div class="popup_tataex_descripion">
+              <h2 class="popuptataex_title">ASHOK LEYLAND DOST(CNG)</h2>
+              <p class="popup_tataex_detail">
+                Rent-:By distance 50 Rs/Km <br />Vehicle capacity 1000kg
+                <br />Extra charge for extra weight
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- End Service Image Div2 Popup -->
+        <div class="service_image_div3">
+          <img src="image/3.jpg" alt="Image" class="service_image3" />
+        </div>
+      </div>
+      <!-- Service Image Div3 Popup -->
+      <div class="service_image_div3_popup">
+        <div class="close3">
+          <button class="closebtn3">x</button>
+        </div>
+        <div class="innerImageDiv2Popup">
+          <div class="popup_tata1100">
+            <img
+              src="image/3.jpg"
+              alt="Error while loading"
+              class="popup_tata1100__image"
+            />
+          </div>
+          <div class="popup_tata1100_descripion">
+            <h2 class="popuptata1100_title">TATA ACC GOLD(CNG)</h2>
+            <p class="popup_tata1100_detail">
+              Rent-:By distance 50 Rs/Km <br />Vehicle capacity 1000kg
+              <br />Extra charge for extra weight
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- End Service Image Div3 Popup -->
+      <div class="more">
+        <a href="pages/service.html" class="more_link">More</a>
+      </div>
+    </section>
+    <!-- End Service Secton -->
+
+    <!-- About Section -->
+    <section class="about_section">
+      <div class="why_div">
+        <h1 class="why_text">Why Us</h1>
+      </div>
+      <div class="inner_about_section">
+        <div class="support_div">
+          <h1 class="support_title">24 Hour Support</h1>
+          <span class="support_desc"
+            >We provide 24 hours support by professional team.</span
+          >
+        </div>
+        <div class="shipment_div">
+          <h1 class="shipment_title">Mobile Shipment Tracking</h1>
+          <span class="shipment_desc"
+            >We provide Tracking system to know your status about your transport
+            query.</span
+          >
+        </div>
+        <div class="careful_div">
+          <h1 class="careful_title">Careful Handling</h1>
+          <span class="careful_desc"
+            >Our team always care your goods and services.</span
+          >
+        </div>
+        <div class="delivery_div">
+          <h1 class="delivery_title">Time on Door Delivery</h1>
+          <span class="delivery_desc"
+            >We offers intelligent concepts for road & tail well as complex
+            special service.</span
+          >
+        </div>
+      </div>
+      <div class="more">
+        <a href="pages/about.html" class="more_link"> More</a>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!---------------------Foot Section ----------------->
+
+    <footer class="foot">
+      <div class="innerfoot">
+        <div class="foot_logo">
+          <a href="#">
+            <span class="foot_arl_text">Arl</span>
+            <span class="foot_expressway_text">Expressway</span>
+          </a>
+        </div>
+        <div class="address">
+          <h1 class="address_text">Address</h1>
+          <p class="address_detail">
+            Plot No.44, Pocket 8, Sector B4,<br />Punjabi Colony, Narela,
+            <br />Delhi 110040
+          </p>
+        </div>
+        <div class="contactus">
+          <h1 class="contact_text">Contact</h1>
+          <p class="contact_detail">
+            Mob No. : +91 9015884914 <br />Mob No. : +91 8744887282<br />E-mail
+            : arlexpressways@gmail.com
+          </p>
+        </div>
+        <div class="connect_with_us">
+          <h1 class="connect">Connect with us</h1>
+          <a
+            href="https://web.whatsapp.com/"
+            target="_blank"
+            class="contact_icon"
+            ><img src="image/WhatsApp1.png" alt="Whatsapp Image"
+          /></a>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            class="contact_icon"
+            ><img src="image/instagram.png" alt="Instagram Image"
+          /></a>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            class="contact_icon"
+            ><img src="image/facebook.png" alt="Facebook Image"
+          /></a>
+          <a
+            href="https://in.linkedin.com/"
+            target="_blank"
+            class="contact_icon"
+            ><img src="image/linkedin.png" alt="Linked Image"
+          /></a>
+        </div>
+      </div>
+      <div class="copy_logo">
+        <p id="copyright">&copy;Copyright.All Right Reserved</p>
+      </div>
+    </footer>
+  </body>
+  <script src="js/menu.js"></script>
+  <script src="js/register-form.js"></script>
+  <script src="js/service-popup.js"></script>
+</html>

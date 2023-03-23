@@ -1,0 +1,47 @@
+.body_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: linear-gradient(90deg, rgba(30, 29, 29, 0.8), rgba(17, 17, 18, 0.8), rgba(12, 12, 12, 0.8), rgba(15, 15, 15, 0.8)), url("../image/backimage.jpg");
+    padding: 10px 30px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: white;
+}
+.image_div1, .image_div2, .image_div3,.image_div4, .image_div5, .image_div6{
+    padding: 10px 0;
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+.champion, .leyland, .tata_acc, .tataex, .tata1100, .tatalpt{
+    width: 100%;
+    height: 100%;
+}
+.champion_title, .leyland_title, .tata_acc_title, .tataex_title, .tata1100_title, .tatalpt_title{
+    font-family: 'Roboto Slab', serif;
+    font-size: 22px;
+    padding: 5px 0;
+}
+.champion_image,.leyland_image,.tata_acc_image, .tataex_image,.tata1100_image, .tatalpt_image{
+    width: 80%;
+    height:280px ;
+    border: 3px solid teal;
+    object-fit: cover;
+}
+
+.champion_image:hover,.leyland_image:hover,.tata_acc_image:hover, .tataex_image:hover,.tata1100_image:hover, .tatalpt_image:hover{
+    transform: scale(1.02);
+    transition: 0.2s linear;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 5px black;
+}
+.champion_description, .leyland_description, .tata_acc_description, .tataex_description, .tata1100_description, .tatalpt_decription{
+    object-fit: cover;
+}

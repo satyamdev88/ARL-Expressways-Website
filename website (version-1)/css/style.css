@@ -1,0 +1,190 @@
+/*-----------------------------------  Menu Section ----------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-bar{
+    background-color: #FF5733;
+    color: white;
+    padding: 21px;
+    font-family: monospace;
+    transition: 0.5s;
+}
+.nav-bar:hover{
+    background-color: #ff3333;
+}
+.arl{
+    font-size: 40px;
+    font-family: fantasy;
+    float: left;
+    color: black;
+    margin-left: 28px;
+}
+.expressway{
+    font-family: cursive;
+    padding-left: 17px; 
+    color: white;
+    float: left;
+    margin-left: -15px;
+    margin-top: 32px;
+}
+.menu-right{
+    text-align: right;
+    color: white;
+}
+#list_items{
+    display: inline-block;
+    margin: 5px;
+    list-style: none;
+    color: white;
+}
+#link{
+    text-decoration: none;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    padding:20px;
+}
+#link:hover{
+    color: #473BED  ;
+}
+
+span{
+    margin: 0px 20px;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+@media only screen and (max-width: 935px)
+{
+    span
+    {
+        display: block;
+    }
+    ul li
+    {
+        display:block;
+    }
+    ul
+    {
+        display:none;
+    } 
+}
+
+/* --------------------------------  Body Section  ------------------------------ */
+#text_area{
+    background-image: url("..\\images\\truck_image.jpg");
+    background-repeat: no-repeat;
+    height:650px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.color-overlay{
+    width:100%;
+    height:100%;
+    background-image: linear-gradient(to left bottom, #bd00d2, #AF31BD, #E276EE, #00c5ff, #12deeb);
+    position:absolute;
+    opacity: 0.4;
+}
+#heading{
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 5rem;
+    z-index: 1;
+    color: white;    
+    animation: text 6s  infinite alternate;
+    letter-spacing: 4px;
+}
+@keyframes text{
+    0%{
+        width:0ch;
+    }
+    50%{
+        width:16ch;
+    }
+}
+#slogan{
+    z-index: 1;
+    color: white;
+    font-size: 40px;
+}
+/* ----------------------------------------  Footer Section  --------------------------------- */
+.footer-content{
+    background: #1a1c1b;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    transition: 0.8s;
+}
+.footer-content:hover{
+    background-color: black;
+}
+#logo_name{
+    color: white;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    padding: 12px 32px 12px 32px;
+    margin: 0px 25px 8px 6px;
+}
+#arl-text{
+    color: rgb(255 0 0);
+    font-family: fantasy;
+    padding-right: 60px;
+    font-size: 40px;
+}
+#expressway-text{
+    font-family: cursive;
+    padding-left: 80px;
+}
+#about{
+    color: rgb(0, 174, 255);
+    padding-bottom: 25px;
+    font-family: -webkit-pictograph;
+    text-decoration: underline #D9514EFF;
+}
+#about_text{
+    font-family:cursive;
+    color: #e8e8e8;
+}
+#mail{
+    color: rgb(0, 174, 255);
+    padding-bottom: 25px;
+    font-family: -webkit-pictograph;
+    text-decoration: underline #D9514EFF;
+}
+#email{
+    font-family:cursive;
+    font-weight: 20;
+    color: #e8e8e8;
+}
+#contact{
+    color: rgb(0, 174, 255);
+    padding-bottom: 25px;
+    font-family: -webkit-pictograph;
+    text-decoration: underline #D9514EFF;
+}
+#contact_num{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Dancing Script', cursive;
+    color: #e8e8e8;
+}
+#copy_logo{
+    margin: 6px 0px 0px 0px;
+    padding: 3px 20px 0px 20px;
+}
+#copyright{
+	color: white;
+	font-family: monospace;
+    font-size: 15px;
+	text-align: center;
+    border-top: 2px solid rgb(153, 148, 148);
+}

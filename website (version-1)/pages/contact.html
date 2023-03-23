@@ -1,0 +1,130 @@
+<html>
+	<head>
+		<title>Contact Us</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="..\css\contact.css">
+	</head>
+	<body>
+		<!--------------------  Menu Section  ----------------------->
+		<nav class="nav-bar">
+			<p class="arl">Arl</p>
+			   <p class="expressway">Expressway</p>
+			<div class="menu-right">
+				<span onClick="myFunction()">&#9776;</span>
+				<ul id="menu_items">
+					<li id = "list_items"><a href="..\index.html" id ="link">Home</a></li>
+					<li id = "list_items"><a href="services.html" id ="link">Services</a></li>
+					<li id = "list_items"><a href="about.html" id ="link">About</a></li>
+					<li id = "list_items"><a href="#" id ="link">Contact</a></li>                  
+				</ul>
+			</div>
+		</nav>
+	   <script>
+		   function myFunction(){
+			var x = document.getElementById("menu_items") 
+			if(x.style.display  == "block")
+			{
+				x.style.display = "none";
+			}
+			else
+			{
+				x.style.display = "block";
+			}
+		   }
+	   </script>
+	   <!------------------------  Body Section  ------------->
+		<div class="parent_div">
+			<div id="child_div">
+				<h1 id="contact_text">
+					<marquee onmouseover="this.stop()" onmouseleave="this.start()">How can we help you?</marquee>
+				</h1>
+			</div>
+			<div id="description">
+				<p id="contact_desc">
+					Want to get in touch ? Don't Hesitate to connect with us. 
+					<br>We are here to help and answer any question you might have.
+					<br>We look forward hearing from you  We would love to hear from you.
+					<br>Our Team is happy to answer your question.
+					<br>We will be in touch as soon as possible.
+					<br>Here is how you can reach us.....
+				</p>
+			</div>
+			<div class="address">
+				<div id ="address_div1">
+					<div id ="address_location">
+						<img src="..\images\location.png" alt="Location Image" id="location_image"/>
+					</div>
+					<div id ="address_description">
+						<h3>OUR MAIN OFFICE</h3>
+						<p id="address_paragraph">Kewal Dham Colony
+						<br>Durgakund
+						<br>Varanasi
+						<br>Pin:-221005
+						</p>
+					</div>
+				</div>
+				<div id ="address_div2">
+					<div id ="call_div">
+						<img src="..\images\call.png" alt="Call Logo" id="call_image"/>
+					</div>
+					<div id ="call_description">
+						<h3>PHONE NUMBER</h3>
+						<p id="address_paragraph">
+							8809026220
+						<br>9128007073(Toll Free)
+						</p>
+					</div>
+				</div>
+				<div id ="address_div3">
+					<div id = "whatsapp_div">
+						<img src="..\images\WhatsApp.png" alt="Whatsapp Logo" id="whatsapp_image"/>
+					</div>
+					<div id = "whatsapp_description">
+						<h3>WHAT'S APP</h3>
+						<p id="address_paragraph">
+							8726532625
+						<br>9580543903
+						</p>
+					</div>
+				</div>
+				<div id ="address_div4">
+					<div id="email_div">
+						<img src="..\images\email.png" alt="Email Logo" id="email_image">
+					</div>
+					<div id="email_description">
+						<h3>E-MAIL</h3>
+						<p id="address_paragraph">
+							akhilesh09.rtp@gmail.com
+						<br>rajatsingh6134@gmail.com
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		    <!-----------------------------Footer Section  ------------------------>
+			<footer class="footer-content">
+				<div id="logo_name">
+					<h1 id="arl-text"> Arl</h1>
+					<h2 id="expressway-text">Expressway</h2>
+				</div>
+				<div id="logo_name">
+					<h1 id="about">About</h1>
+					<p id="about_text">Transportation of Goods and Services</p>
+				</div>
+				<div id="logo_name">
+					<h1 id="contact">Contact</h1>
+					<P id="contact_num">+91 9128007073</p>
+				</div>
+				<div id="logo_name">
+					<h1 id="mail">E-mail</h1>
+					<p id="email">badalpandey78@gmail.com<p1>
+				</div>
+				<div id="copy_logo">
+					<p id="copyright">&copy;Copyright.All Right Reserved</p> 
+				</div>
+		
+			</footer>
+	</body>
+</html>

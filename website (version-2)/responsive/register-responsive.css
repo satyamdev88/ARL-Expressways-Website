@@ -1,0 +1,109 @@
+@media screen and (max-width:768px) {
+    .form{
+        width: 70%;
+        margin-top: 15%;
+    }
+    .register_text{
+        font-size: 35px;
+        margin: 20px 0 0 0;
+    }
+    .fname, .lname{
+        padding: 5px 30px;
+    }
+    .first_name, .second_name{
+        margin: 20px auto 10px auto;
+    }
+    .lock_icon, .email_icon{
+        padding: 13px 8px;
+    }
+    .email_input, .pass_input {
+        padding: 5px 30px;
+        margin: 5px 0;
+    }
+    .gender{
+        margin: 10px auto;
+        font-size: 15px;
+    }
+    .tick_box{
+        font-size: 15px;
+    }
+    .btn{
+        padding: 5px 0;
+    }
+    .register_btn{
+        font-size: 15px;
+        padding: 2px 15px;
+    }
+    .login_text {
+        font-size: 15px;
+    }
+    .login_link {
+        padding: 0px 5px;
+        font-size: 15px;
+    }
+    .home {
+        font-size: 16px;
+        padding: 2px 0;
+        margin: 5px auto;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .form{
+        width: 80%;
+    }
+    .closebtn{
+        margin-right: 10px;
+        font-size: 25px;
+    }
+    .register_text{
+        font-size: 25px;
+        margin: 20px 0 0 0;
+    }
+    .user_icon{
+        padding: 5px;
+    }
+    .fname, .lname {
+        padding: 3px 22px;
+        font-size: 11px;
+    }
+    .lock_icon, .email_icon {
+        padding: 10px 5px;
+    }
+    .email_input, .pass_input {
+        padding: 2px 23px;
+        font-size: 12px;
+    }
+    .gender, .tick_box, .register_btn, .login_text, .login_link{
+        font-size: 13px;
+    }
+    .tick_box{
+        margin: 5px 0;
+    }
+    .btn, .login{
+        padding: 0;
+    }
+    .home{
+        width: 40%;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:200px) {
+    .form{
+        overflow: hidden;
+    }
+    .register_text{
+        font-size: 15px;
+    }
+    .username{
+        flex-direction: column;
+
+    }
+    .first_name, .second_name{
+        width: 100%;
+    }
+    .btn{
+        word-break: break-all;
+    }
+}

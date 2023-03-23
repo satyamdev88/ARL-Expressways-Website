@@ -1,0 +1,246 @@
+/*-----------------------------------  Menu Section ----------------------- */
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.nav-bar{
+    background-color: #FF5733;
+    color: white;
+    padding: 21px;
+    font-family: monospace;
+}
+.arl{
+    font-size: 40px;
+    font-family: fantasy;
+    float: left;
+    color: black;
+    margin-left: 28px;
+}
+.expressway{
+    font-family: cursive;
+    padding-left: 17px; 
+    color: white;
+    float: left;
+    margin-left: -15px;
+    margin-top: 32px;
+}
+.menu-right{
+    text-align: right;
+    color: white;
+}
+#list_items{
+    display: inline-block;
+    margin: 5px;
+    list-style: none;
+    color: white;
+}
+#link{
+    text-decoration: none;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    padding:20px;
+}
+#link:hover{
+    color: #473BED  ;
+}
+
+span{
+    margin: 0px 20px;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+@media only screen and (max-width: 935px)
+{
+    span
+    {
+        display: block;
+    }
+    ul li
+    {
+        display:block;
+    }
+    ul
+    {
+        display:none;
+    } 
+}
+
+/* --------------------------------  Body Section  ------------------------------ */
+.parent_div{
+    background-color: #d4d2d2;
+}
+#child_div{
+	display: flex;
+	justify-content: center;
+}
+#contact_text{
+	letter-spacing: 2px;
+	font-size: 50px;
+	padding-top: 30px;
+	text-align: center;
+}
+#description{
+	display: flex;
+	justify-content: center;
+}
+#contact_desc{
+	letter-spacing: 2px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 23px;
+	padding-top: 30px;
+}
+.address{
+	columns: 2;
+	padding: 120px;
+    background-color: #d4d2d2;
+}
+#address_div1{
+	display: flex;
+	justify-content: center;
+	padding: 30px;
+	margin: 30px; 
+}
+#address_location{
+	padding: 20px;
+}
+#location_image{
+	height: 90px;
+	width: 90px;
+	border-radius: 60px;
+}
+#address_description{
+	padding-top: 25px;
+}
+#address_div2{
+	display: flex;
+	justify-content: center;
+	padding: 30px;
+	margin: 30px;
+}
+#call_div{
+	padding: 20px;
+}
+#call_image{
+	height: 70px;
+	width: 70px;
+	border-radius: 50px;
+}
+#call_description{
+	padding-top: 25px;
+}
+#address_div3{
+	display: flex;
+	justify-content: center;
+	padding: 70px 30px 30px 30px;
+	margin: 30px; 
+}
+#whatsapp_div{
+	padding: 15px;
+}
+#whatsapp_image{
+	height:110px;
+	width: 110px;
+	border-radius: 90px;
+}
+#whatsapp_description{
+	padding-top: 40px;
+}
+#address_div4{
+	 display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+#email_div{
+	padding: 15px;
+}
+#email_image{
+	height: 80px;
+	width: 80px;
+	border-radius: 60px;
+}
+#email_description{
+	padding-top: 30px;
+}
+
+
+@media(max-width:650px){
+	.address{
+		columns: 1;
+	}
+}
+/* ----------------------------------------  Footer Section  --------------------------------- */
+.footer-content{
+    background: #1a1c1b;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+#logo_name{
+    color: white;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    padding: 12px 32px 12px 32px;
+    margin: 0px 25px 8px 6px;
+}
+#arl-text{
+    color: rgb(255 0 0);
+    font-family: 'Bebas Neue', cursive;
+    padding-right: 60px;
+    font-size: 40px;
+}
+#expressway-text{
+    font-family: 'Saira Condensed', sans-serif;
+    padding-left: 80px;
+}
+
+
+#about{
+    color: rgb(0, 174, 255);
+    padding-bottom: 25px;
+    font-family: 'Alumni Sans', sans-serif;
+    text-decoration: underline #D9514EFF;
+}
+#about_text{
+    font-family:cursive;
+    color: rgb(232 195 195);
+}
+#mail{
+    color: rgb(0, 174, 255);
+    padding-bottom: 25px;
+    font-family: 'Alumni Sans', sans-serif;
+    text-decoration: underline #D9514EFF;
+}
+#email{
+    font-family:cursive;
+    font-weight: 20;
+    color: rgb(232 195 195);
+}
+#contact{
+    color: rgb(0, 174, 255);
+    padding-bottom: 25px;
+    font-family: 'Alumni Sans', sans-serif;
+    text-decoration: underline #D9514EFF;
+}
+#contact_num{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(232 195 195);
+}
+#copy_logo{
+    margin: 6px 0px 0px 0px;
+    padding: 3px 20px 0px 20px;
+}
+#copyright{
+	color: white;
+	font-family: monospace;
+	text-align: center;
+    border-top: 2px solid rgb(153, 148, 148);
+}

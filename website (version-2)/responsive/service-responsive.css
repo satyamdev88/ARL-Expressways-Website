@@ -1,0 +1,25 @@
+@media screen and (max-width:768px) {
+    .image_div1, .image_div2, .image_div3,.image_div4, .image_div5, .image_div6{
+        width: 50%;
+    }
+    .champion_title, .leyland_title, .tata_acc_title, .tataex_title, .tata1100_title, .tatalpt_title{
+        font-size: 19px;
+    }
+    .champion_description, .leyland_description, .tata_acc_description, .tataex_description, .tata1100_description, .tatalpt_decription{
+        font-size: 18px;
+    }
+    .champion_image,.leyland_image,.tata_acc_image, .tataex_image,.tata1100_image, .tatalpt_image{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .image_div1, .image_div2, .image_div3,.image_div4, .image_div5, .image_div6{
+        width: 80%;
+        word-break: break-all;
+    }
+    
+    .champion_image,.leyland_image,.tata_acc_image, .tataex_image,.tata1100_image, .tatalpt_image{
+        height: 180px;
+    }
+}

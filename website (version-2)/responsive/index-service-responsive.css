@@ -1,0 +1,53 @@
+@media screen and (max-width: 768px) {
+  .service_text_div {
+    width: 40%;
+  }
+  .service_text {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .service_text_div {
+    width: 50%;
+  }
+  .service_text {
+    font-size: 20px;
+  }
+  .service_image {
+    flex-direction: column;
+  }
+  .service_image_div1,
+  .service_image_div2,
+  .service_image_div3 {
+    width: 50%;
+    padding: 20px 0;
+  }
+  .service_image1 {
+    width: 90%;
+  }
+  .service_image2 {
+    width: 95%;
+  }
+  .service_image3 {
+    width: 95%;
+  }
+  .popup_champion_image, .popup_tataex_image,.popup_tata1100__image{
+    width: 100%;
+  }
+  .popupchampion_title, .popuptataex_title, .popuptata1100_title{
+    font-size: 13px;
+    word-break: break-all;
+  }
+  .popup_champion_detail, .popup_tataex_detail, .popup_tata1100_detail{
+    font-size: 10px;
+    word-break: break-all;
+  }
+  .innerImageDivPopup, .innerImageDiv1Popup, .innerImageDiv2Popup {
+    width: 60%;
+    margin: 35% auto;
+}
+.closebtn1{
+  margin-right: 0;
+}
+}
