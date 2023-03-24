@@ -6,3 +6,12 @@
 .contact_info{
     background-color: teal;
 }
+.fontsize{
+    font-size: 12px;
+}
+.nav-bar{
+    display: flex;
+}
+.nav-item{
+    list-style: none;
+}
